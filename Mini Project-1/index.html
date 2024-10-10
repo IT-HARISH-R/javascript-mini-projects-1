@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="todo-input">
+          <input type="text" id="taskInput" placeholder="Add a new task" />
+          <select name="taskStatus" id="taskStatus">
+            <option value="Completed" class="fond">Completed</option>
+            <option value="Pending"class="fond">Pending</option>
+          </select>
+          <button id="addTaskBtn"class="fond">Add Task</button>
+          <button id="deleteTaskBtn"class="fond">Delete All</button>
+        </div>
+      
+        <ul id="taskList"></ul>
+      </div>
+</body>
+<script src="./index.js"></script>
+</html>
